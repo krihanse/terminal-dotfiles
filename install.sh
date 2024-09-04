@@ -69,6 +69,9 @@ brew install stow
 # install kubie
 brew install kubie
 
+# install ohmyposh
+brew install jandedobbeleer/oh-my-posh/oh-my-posh
+
 # https://www.jetify.com/devbox/docs/installing_devbox/
 # curl -fsSL https://get.jetify.com/devbox | bash
 
