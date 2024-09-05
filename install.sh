@@ -72,6 +72,12 @@ brew install kubie
 # install ohmyposh
 brew install jandedobbeleer/oh-my-posh/oh-my-posh
 
+# install ripgrep
+brew install ripgrep
+
+# install wrapper on ripgrep
+brew install rga
+
 # https://www.jetify.com/devbox/docs/installing_devbox/
 # curl -fsSL https://get.jetify.com/devbox | bash
 
