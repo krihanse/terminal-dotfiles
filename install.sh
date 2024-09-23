@@ -45,6 +45,14 @@ brew install bat
 # install kubectl
 brew install kubectl
 
+# install krew package manager for kubectl
+brew install krew
+
+# update krew plugins
+kubectl krew update
+kubectl krew install moco
+kubectl krew install directpv
+
 # install fluxcd
 brew install flux
 

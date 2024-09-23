@@ -123,4 +123,7 @@ export PATH="$HOME/go/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
+# Add for kubectl krew
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
 export XDG_DATA_DIRS="/home/zytox/.local/share:$XDG_DATA_DIRS"
