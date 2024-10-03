@@ -4,13 +4,16 @@
     {
       "segments": [
         {
-          "foreground": "#00C5C7",
+          "type": "kubectl",
+          "style": "diamond",
+          "foreground": "#77E4F7",
+          "leading_diamond": "\u2388 \u276F",
+          "trailing_diamond": "\u276E ",
           "properties": {
-            "time_format": "15:04:05"
-          },
-          "style": "plain",
-          "template": " {{ .CurrentDate | date .Format }} ",
-          "type": "time"
+            "prefix": "\uFD31",
+            "template": "{{.Context}} :: {{if .Namespace}}{{.Namespace}}{{else}}default{{end}}",
+            "display_error": false
+          }
         }
       ],
       "type": "rprompt"
@@ -18,6 +21,7 @@
     {
       "alignment": "left",
       "segments": [
+
         {
           "foreground": "#77E4F7",
           "properties": {
